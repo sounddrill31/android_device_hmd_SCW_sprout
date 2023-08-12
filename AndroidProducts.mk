@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_SCW_sprout.mk
+    $(LOCAL_DIR)/omni_SCWsprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_SCW_sprout-user \
-    omni_SCW_sprout-userdebug \
-    omni_SCW_sprout-eng
+    omni_SCWsprout-user \
+    omni_SCWsprout-userdebug \
+    omni_SCWsprout-eng
