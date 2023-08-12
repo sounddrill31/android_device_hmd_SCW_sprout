@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/hmd/SCW_sprout
+DEVICE_PATH := device/hmd/SCWsprout
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -46,8 +46,8 @@ TARGET_NO_BOOTLOADER := true
 BOARD_BOOTIMG_HEADER_VERSION := 3
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := Image
-TARGET_KERNEL_CONFIG := SCW_sprout_defconfig
-TARGET_KERNEL_SOURCE := kernel/hmd/SCW_sprout
+TARGET_KERNEL_CONFIG := SCWsprout_defconfig
+TARGET_KERNEL_SOURCE := kernel/hmd/SCWsprout
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
