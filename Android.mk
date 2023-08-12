@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),SCW_sprout)
+ifeq ($(TARGET_DEVICE),SCWsprout)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
