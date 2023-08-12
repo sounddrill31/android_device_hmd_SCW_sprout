@@ -15,8 +15,8 @@ $(call inherit-product, vendor/pb/config/common.mk)
 # Inherit from SCW_sprout device
 $(call inherit-product, device/hmd/SCW_sprout/device.mk)
 
-PRODUCT_DEVICE := SCW_sprout
-PRODUCT_NAME := omni_SCW_sprout
+PRODUCT_DEVICE := SCWsprout
+PRODUCT_NAME := omni_SCWsprout
 PRODUCT_BRAND := Nokia
 PRODUCT_MODEL := Nokia X10
 PRODUCT_MANUFACTURER := hmd
