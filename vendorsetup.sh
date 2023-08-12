@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_SCW_sprout-user
-add_lunch_combo omni_SCW_sprout-userdebug
-add_lunch_combo omni_SCW_sprout-eng
+add_lunch_combo omni_SCWsprout-user
+add_lunch_combo omni_SCWsprout-userdebug
+add_lunch_combo omni_SCWsprout-eng
