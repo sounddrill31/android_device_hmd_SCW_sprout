@@ -12,8 +12,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Omni stuff.
 # $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, vendor/pb/config/common.mk)
-# Inherit from SCW_sprout device
-$(call inherit-product, device/hmd/SCW_sprout/device.mk)
+# Inherit from SCWsprout device
+$(call inherit-product, device/hmd/SCWsprout/device.mk)
 
 PRODUCT_DEVICE := SCWsprout
 PRODUCT_NAME := omni_SCWsprout
@@ -26,4 +26,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-hmd
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="ScarletWitch_00WW-user 13 TKQ1.220807.001 00WW_3_390 release-keys"
 
-BUILD_FINGERPRINT := Nokia/ScarletWitch_00WW/SCW_sprout:13/TKQ1.220807.001/00WW_3_390:user/release-keys
+BUILD_FINGERPRINT := Nokia/ScarletWitch_00WW/SCWsprout:13/TKQ1.220807.001/00WW_3_390:user/release-keys
